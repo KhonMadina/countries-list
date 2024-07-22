@@ -1,0 +1,36 @@
+/* Container */
+.container {
+    margin: 17px auto;
+    padding: 17px;
+    border-radius: 15px;
+    background-color: #747bff17;
+    /* No need for 'justify-content' on a block container */
+}
+li {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px; /* Adjust the radius as needed */
+    padding: 10px; /* Optional: Add some padding for better appearance */
+    font-size: 16px; /* Set the desired font size */
+}
+
+    li:hover {
+        background-color: #abaff5;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+
+/* List Component Container */
+.list-component-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 5px;
+    max-width: 100%;
+    list-style-type:none;
+}
+
+@media screen and (max-width: 768px) {
+    .list-component-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
