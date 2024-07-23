@@ -83,35 +83,35 @@ The build output will be located in the dist folder.
 plaintext
 Copy code
 country-list-project/
-├── public/
-│   ├── country.svg
-│   └── vite.svg
-├── src/
-│   ├── assets/
-│   │   └── css
-│   │   |   ├── ListStyle.css
-│   │   |   ├── ModalStyle.css
-│   │   |   ├── PaginationStyle.css
-│   │   |   └── SearchStyle.css
-│   │   └── country.svg
-│   ├── ui-components/
-│   │   ├── list-component.jsx
-│   │   ├── modal-component.jsx
-│   │   ├── pagination-component.jsx
-│   │   └── search-component.jsx
-│   ├── pages/
-│   │   ├── CountryDetails.jsx
-│   │   └── Home.jsx
-│   ├── api-services/
-│   │   └── country-list-api.js
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
+-├── public/
+-│   ├── country.svg
+-│   └── vite.svg
+-├── src/
+-│   ├── assets/
+-│   │   └── css
+-│   │   |   ├── ListStyle.css
+-│   │   |   ├── ModalStyle.css
+-│   │   |   ├── PaginationStyle.css
+-│   │   |   └── SearchStyle.css
+-│   │   └── country.svg
+-│   ├── ui-components/
+-│   │   ├── list-component.jsx
+-│   │   ├── modal-component.jsx
+-│   │   ├── pagination-component.jsx
+-│   │   └── search-component.jsx
+-│   ├── pages/
+-│   │   ├── CountryDetails.jsx
+-│   │   └── Home.jsx
+-│   ├── api-services/
+-│   │   └── country-list-api.js
+-│   ├── App.jsx
+-│   ├── main.jsx
+-│   └── index.css
+-├── .gitignore
+-├── index.html
+-├── package.json
+-├── README.md
+-└── vite.config.js
 
 **Features**
 Display a list of countries: View a comprehensive list of countries.
@@ -139,7 +139,7 @@ Contributions are welcome! Please follow these steps to contribute:
 Fork the repository:
 bash
 Copy code
-git fork https://github.com/dina168/country-list-project.git
+git fork https:(https://github.com/dina168/countries-list)
 Create a new branch:
 bash
 Copy code
