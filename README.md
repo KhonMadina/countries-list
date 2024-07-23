@@ -83,35 +83,35 @@ The build output will be located in the dist folder.
 plaintext
 Copy code
 country-list-project/
--├── public/
--│   ├── country.svg
--│   └── vite.svg
--├── src/
--│   ├── assets/
--│   │   └── css
--│   │   |   ├── ListStyle.css
--│   │   |   ├── ModalStyle.css
--│   │   |   ├── PaginationStyle.css
--│   │   |   └── SearchStyle.css
--│   │   └── country.svg
--│   ├── ui-components/
--│   │   ├── list-component.jsx
--│   │   ├── modal-component.jsx
--│   │   ├── pagination-component.jsx
--│   │   └── search-component.jsx
--│   ├── pages/
--│   │   ├── CountryDetails.jsx
--│   │   └── Home.jsx
--│   ├── api-services/
--│   │   └── country-list-api.js
--│   ├── App.jsx
--│   ├── main.jsx
--│   └── index.css
--├── .gitignore
--├── index.html
--├── package.json
--├── README.md
--└── vite.config.js
+- ├── public/
+- │   ├── country.svg
+- │   └── vite.svg
+- ├── src/
+- │   ├── assets/
+- │   │   └── css
+- │   │   |   ├── ListStyle.css
+- │   │   |   ├── ModalStyle.css
+- │   │   |   ├── PaginationStyle.css
+- │   │   |   └── SearchStyle.css
+- │   │   └── country.svg
+- │   ├── ui-components/
+- │   │   ├── list-component.jsx
+- │   │   ├── modal-component.jsx
+- │   │   ├── pagination-component.jsx
+- │   │   └── search-component.jsx
+- │   ├── pages/
+- │   │   ├── CountryDetails.jsx
+- │   │   └── Home.jsx
+- │   ├── api-services/
+- │   │   └── country-list-api.js
+- │   ├── App.jsx
+- │   ├── main.jsx
+- │   └── index.css
+- ├── .gitignore
+- ├── index.html
+- ├── package.json
+- ├── README.md
+- └── vite.config.js
 
 **Features**
 Display a list of countries: View a comprehensive list of countries.
@@ -131,7 +131,6 @@ This project uses the REST Countries API to fetch country data.
 Example API endpoint:
 
 Get all countries: https://restcountries.com/v3.1/all
-Get country by name: https://restcountries.com/v3.1/name/{name}
 
 **Contributing**
 Contributions are welcome! Please follow these steps to contribute:
