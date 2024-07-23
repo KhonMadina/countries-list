@@ -35,7 +35,7 @@ npm (v6 or higher) or yarn (v1.22 or higher) - Download npm / Download Yarn
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/dina168/country-list-project.git
+git clone https:(https://github.com/dina168/countries-list)
 cd country-list-project
 Install dependencies:
 Using npm:
